@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>스와로브스키</title>
+    <meta name="viewport" content="width=devcie-width, initial-scale=1.0, user-scalable=no">
+<!--       폰트         -->
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+<!--     메타정보 -->
+<meta name="application-name" content="warawara">
+<meta name="author" content="gwon">
+<meta name="keywords" content="wrar">
+<meta name="description" content="mobile3 example">
+
+<!--  바로가기 아이콘    -->
+<link rel="stylesheet" href="">
+    <style>
+        * { margin: 0; padding: 0; }
+        body, html { width: 100%; height: 100%; font-family: 'Nanum Gothic', sans-serif; }
+        ul, li { list-style: none; }
+        a { display: block; text-decoration: none; }
+        
+        .pageWrap {
+            width: 100%;
+            height: 100%;
+        }
+        #hd {
+            width: 100%;
+            height: 55px;
+            border-bottom: 1px solid #222;
+        }
+        #gnb {
+            width: 100%;
+            height: 55px;
+        }
+        .menu_bt img {
+            display: block;
+            float: left;
+            margin: 15px;
+        }
+        .logo img {
+            display: block;
+            width: 119px;
+            height: 48px;
+            float: left;
+        }
+        
+        .shop {
+            float: right;
+        }
+        .shop a {
+            float: left;
+            margin: 10px;
+            padding-right: 5px;
+            padding-top: 8px;
+        }
+    </style>
+    <style>
+        .con {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        #con_menu {
+            height: 680px;
+            background-image: url("./img/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+        
+        .con .menu {
+            width: 380px;
+            margin: 0 auto;
+            padding-top: 25px;
+        }
+        .menu li {
+            float: left;
+        }
+    </style>
+    <style>
+        #brand { display: none; }
+    </style>
+    <style>
+        #ft {
+            width: 100%;
+            font-size: 10pt;
+            background: #fff;
+        }
+        #fnb {
+            width: 370px;
+            height: 150px;
+            margin: 0 auto;
+            border-bottom: 1px solid #BDBDBD;
+        }
+        #fnb .foot {
+            width: 370px;
+        }
+        #fnb .foot li {
+            width: 370px;
+            height: 50px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        #fnb .foot li a {
+            color: #333;
+            padding: 15px 15px 15px 10px;
+        }
+        #fnb .foot li a:after {
+            content: "∨";
+            font-weight: bold;
+            color: #BDBDBD;
+            position: absolute;
+            right: 10%;
+        }
+        #fnb .foot li a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        .ft_info {
+            width: 370px;
+            margin: 8px auto;
+            text-align: justify;
+            font-size: 9pt;
+        }
+        .ft_info p {
+            float: left;
+            line-height: 1.6;
+        }
+        .ft_info a {
+            float:right;
+            color: #333;
+        }
+        .ft_info p:last-child {
+            text-align: left;
+        }
+        
+        .ftsub {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="pageWrap">
+        <header id="hd">
+            <nav id="gnb">
+                <a href="" class="menu_bt"><img src="./img/menu_bt.png" alt=""></a>
+                <a href="" class="logo"><img src="./img/logo.png" alt="로고"></a>
+                <div class="shop">
+                    <a href="" class="shop_list"><img src="./img/heart.png" alt=""></a>
+                    <a href="" class="shopping"><img src="./img/shopping-bag.png" alt=""></a>
+                </div>
+            </nav>
+        </header>
+        <section class="con" id="con_menu">
+            <ul class="menu">
+                    <li>
+                        <a href=""><img src="./img/ico1.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/ico2.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/ico3.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/ico4.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/ico5.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/ico6.png" alt=""></a>
+                    </li>
+            </ul>
+        </section>
+        <section class="con" id="brand">
+            <div class="conWrap">
+                <div class="hdTit">
+                    <h2>SWAROVSKI</h2>
+                </div>
+                <div class="content">
+                    <h3 class="conTit">BRAND :: 스와로브스키</h3>
+                    <p>스와로브스키는 1895년 오스트리아의 다니엘 스바로프스키가 티롤 주의 와튼즈에 세운 크리스털 제조 및 판매회사이다.</p>
+                    <p>작은 장식품부터 패션제품에 이르기까지 10만 개 이상의 제품을 생산하여 세계 크리스털업계를 선도하는 기업으로 널리 알려져 있다. </p>
+                    <p>특히 창의성과 다양성에 있어서는 타의 추종을 불허한다. 시대를 앞서는 뛰어난 경영으로도 유명하다.</p>
+                </div>
+            </div>
+        </section>
+        <footer id="ft">
+            <nav id="fnb">
+                <ul class="foot">
+                    <li>
+                        <a href="">회사소개</a>
+                        <ul class="ftsub">
+                            <li><a href="">뉴스레터</a></li>
+                            <li><a href="">온라인 샵 FAQ</a></li>
+                            <li><a href="">스와로브스키 패밀리사이트</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="foot">
+                    <li>
+                        <a href="">법적고지</a>
+                        <ul class="ftsub">
+                            <li><a href="">저작권</a></li>
+                            <li><a href="">이용약관</a></li>
+                            <li><a href="">PRIVACY POLICY</a></li>
+                            <li><a href="">MANAGE COOKIES</a></li>
+                            <li><a href="">상표권</a></li>
+                            <li><a href="">사이트 맵</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="foot">
+                    <li>
+                        <a href="">회사</a>
+                        <ul class="ftsub">
+                            <li><a href="">Crystals For Professionals</a></li>
+                            <li><a href="">Zirconia and Gemstones for Professionals</a></li>
+                            <li><a href="">법인 구매</a></li>
+                            <li><a href="">경력</a></li>
+                            <li><a href="">Swarovskigroup.com</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="ft_info">
+                <p>::사업자등록번호 211-86-96129<br/>::통신판매업신고번호 2013-서울강남-01540</p>
+                <p>::서울시 강남구 도산대로 456 (청담동 백영빌딩10-13층) 06062 </p>
+                <p>::고객센터 ☏1522-9065 | 대표번호 ☏1661-9060 <br/>온라인 구매고객상담 | <a href="kr.shophelp@swarovski.com">&nbsp; kr.shophelp@swarovski.com</a></p>
+                <p>고객님의 안전거래를 위해 현금 등으로 결제하신 경우, 스와로브스키에서 가입한 우리은행 채무지급보증(구매안전서비스)을 이용하실 수 있습니다.</p>
+                <p>::호스팅 서비스 제공자: Swarovski Crystal Online AG, Daniel Swarovski Corporation AG, D. Swarovski & Co 및 Swarovski AG</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
